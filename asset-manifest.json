@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/bmw-car/static/css/main.59a73d34.css",
-    "main.js": "/bmw-car/static/js/main.9c9d1a65.js",
-    "static/media/06.png": "/bmw-car/static/media/06.2b27b1ff8303c981c4cb.png",
-    "static/media/back.png": "/bmw-car/static/media/back.583c06b7efb2d155dbfb.png",
-    "static/media/03.png": "/bmw-car/static/media/03.5ab79e88ced16727b43c.png",
-    "static/media/02.png": "/bmw-car/static/media/02.0ca96adbad611577285b.png",
-    "static/media/BMWLOGO.png": "/bmw-car/static/media/BMWLOGO.22c468d8f6a81093f731.png",
-    "index.html": "/bmw-car/index.html",
-    "main.59a73d34.css.map": "/bmw-car/static/css/main.59a73d34.css.map",
-    "main.9c9d1a65.js.map": "/bmw-car/static/js/main.9c9d1a65.js.map"
+    "main.css": "/static/css/main.29fa5c19.css",
+    "main.js": "/static/js/main.9c9d1a65.js",
+    "static/media/06.png": "/static/media/06.2b27b1ff8303c981c4cb.png",
+    "static/media/back.png": "/static/media/back.583c06b7efb2d155dbfb.png",
+    "static/media/03.png": "/static/media/03.5ab79e88ced16727b43c.png",
+    "static/media/02.png": "/static/media/02.0ca96adbad611577285b.png",
+    "static/media/BMWLOGO.png": "/static/media/BMWLOGO.22c468d8f6a81093f731.png",
+    "index.html": "/index.html",
+    "main.29fa5c19.css.map": "/static/css/main.29fa5c19.css.map",
+    "main.9c9d1a65.js.map": "/static/js/main.9c9d1a65.js.map"
   },
   "entrypoints": [
-    "static/css/main.59a73d34.css",
+    "static/css/main.29fa5c19.css",
     "static/js/main.9c9d1a65.js"
   ]
 }
