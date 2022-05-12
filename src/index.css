@@ -1,5 +1,3 @@
-@import url("https://rsms.me/inter/inter.css");
-
 html,
 body,
 #root {
@@ -58,7 +56,7 @@ h5 {
 
 .content_1 {
   grid-column: span 2;
-  background-image: url(../public/assets/03.png);
+  background-image: url(img/03.png);
   background-position: bottom right;
   background-size: cover;
   box-shadow: 10px 5px 5px grey;
@@ -67,7 +65,7 @@ h5 {
 
 .content_2 {
   grid-column: span 2;
-  background-image: url(../public/assets/06.png);
+  background-image: url(img/06.png);
   background-position: bottom;
   background-size: cover;
   box-shadow: 10px 5px 5px grey;
@@ -92,14 +90,14 @@ h5 {
   background-color: white;
   box-shadow: 10px 5px 5px grey;
   position: relative;
-  background-image: url(../public/assets/BMWLOGO.png);
+  background-image: url(img/BMWLOGO.png);
   background-position: right;
 }
 
 .main_content {
   grid-column: span 3;
   grid-row: span 3;
-  background-image: url(../public/assets/back.png);
+  background-image: url(img/back.png);
   background-size: cover;
   background-position: right center;
   position: relative;
@@ -118,7 +116,7 @@ h5 {
 .content_6 {
   grid-column: 1/ 2;
   grid-row: span 2;
-  background-image: url(../public/assets/02.png);
+  background-image: url(img/02.png);
   background-position: top right;
   box-shadow: 10px 5px 5px grey;
   position: relative;

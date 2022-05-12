@@ -4,4 +4,4 @@
 
 배포:
 
-- https://chuhongkyu.github.io/bmw-car
+-

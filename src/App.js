@@ -1,4 +1,3 @@
-import './App.css';
 import React, { Suspense, useRef, useState, useEffect } from "react"
 import { Canvas, useFrame } from "@react-three/fiber"
 import { ContactShadows, Environment, useGLTF, OrbitControls} from "@react-three/drei"
@@ -93,9 +92,6 @@ function Picker() {
 }
 
 export default function App() {
-  const env = process.env;
-  env.PUBLIC_URL = env.PUBLIC_URL || "";
-
   return (
     <>
       <div className="App">
@@ -103,7 +99,7 @@ export default function App() {
               <div className="content_1"></div>
               <div className="content_2"></div>
               <div className="content_3">
-                <img className="small_img" src={process.env.PUBLIC_URL + "assets/01.jpg"} alt="car_1"/>
+                <img className="small_img" src="img/01.jpg"alt="car_1"/>
               </div>
               <div className="content_4"></div>
               
@@ -121,24 +117,24 @@ export default function App() {
                   <Picker />
               </div>
               <div className="content_5">
-                <img className="small" src={process.env.PUBLIC_URL + "assets/06.png"} alt="car_3"/>
+                <img className="small" src="img/06.png" alt="car_3"/>
               </div>
               <div className="content_6"></div>
 
               <div className="content_7">
                   <div className="content_img">
-                    <i class="fa-solid fa-angles-left fa-2x"></i>
+                    <i className="fa-solid fa-angles-left fa-2x"></i>
                     <span>Who We are?</span>
                   </div>
-                  <img src={process.env.PUBLIC_URL + "assets/04.png"} alt="car_2"/>
+                  <img src="img/04.png" alt="car_2"/>
               </div>
 
               <div className="content_8">
                   <div className="content_img">
-                    <i class="fa-solid fa-angles-left fa-2x"></i>
+                    <i className="fa-solid fa-angles-left fa-2x"></i>
                     <span>Nice</span>
                   </div>
-                  <img src={process.env.PUBLIC_URL + "assets/04.png"} alt="car_2"/>
+                  <img src="img/04.png" alt="car_2"/>
               </div>
             </div>
       </div>
