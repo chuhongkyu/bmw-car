@@ -9,7 +9,7 @@ body,
   height: 100vh;
 }
 
-.App {
+.Home {
   width: 100%;
   height: 100%;
 }
@@ -56,7 +56,6 @@ h5 {
 
 .content_1 {
   grid-column: span 2;
-  background-image: url(img/03.png);
   background-position: bottom right;
   background-size: cover;
   box-shadow: 10px 5px 5px grey;
@@ -65,7 +64,6 @@ h5 {
 
 .content_2 {
   grid-column: span 2;
-  background-image: url(img/06.png);
   background-position: bottom;
   background-size: cover;
   box-shadow: 10px 5px 5px grey;
@@ -90,24 +88,30 @@ h5 {
   background-color: white;
   box-shadow: 10px 5px 5px grey;
   position: relative;
-  background-image: url(img/BMWLOGO.png);
   background-position: right;
 }
 
 .main_content {
   grid-column: span 3;
   grid-row: span 3;
-  background-image: url(img/back.png);
-  background-size: cover;
-  background-position: right center;
+  background-color: rgb(150, 149, 149);
   position: relative;
   box-shadow: 10px 5px 5px grey;
+}
+
+.main_content h1 {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  color: rgb(46, 46, 46);
+  text-decoration: underline;
 }
 
 .content_5 {
   grid-column: -2/ -1;
   grid-row: span 2;
-  background-color: white;
+  background-size: cover;
+  background-position: left center;
   overflow: hidden;
   box-shadow: 10px 5px 5px grey;
   position: relative;
@@ -116,7 +120,6 @@ h5 {
 .content_6 {
   grid-column: 1/ 2;
   grid-row: span 2;
-  background-image: url(img/02.png);
   background-position: top right;
   box-shadow: 10px 5px 5px grey;
   position: relative;
@@ -133,8 +136,7 @@ h5 {
   position: relative;
 }
 
-.content_7 i,
-.content_8 i {
+.content_img span {
   padding: 10px 12px;
   background-color: black;
   color: white;
@@ -182,9 +184,4 @@ h5 {
   border-radius: 25px;
   padding: 0px 0px 25px 20px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-}
-
-.small {
-  width: 100%;
-  height: 100%;
 }
