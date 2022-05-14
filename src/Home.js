@@ -82,7 +82,7 @@ const state = proxy({
      </group>
     )
   }
-  // position={[-0.06, 0.79, -0.39]} rotation={[-Math.PI / 2, 0, 0]} scale={0}
+  
   
   function Picker() {
     const snap = useSnapshot(state)
@@ -99,12 +99,12 @@ const Home =() =>{
     return(
         <div className="Home">
             <div className="main_grid">
-              <div style={{backgroundImage:`url(./assets/01.jpg)`}} className="content_1"></div>
-              <div style={{backgroundImage:`url(assets/back.png)`}} className="content_2"></div>
+              <div style={{backgroundImage:`url(${env.PUBLIC_URL}/assets/01.jpg)`}} className="content_1"></div>
+              <div style={{backgroundImage:`url(${env.PUBLIC_URL}/assets/back.png)`}} className="content_2"></div>
               <div className="content_3">
-                <img className="small_img" src={"assets/01.jpg"}alt="car_1"/>
+                <img className="small_img" src={env.PUBLIC_URL + "/assets/01.jpg"}alt="car_1"/>
               </div>
-              <div style={{backgroundImage:`url(./assets/BMWLOGO.png)`}} className="content_4"></div>
+              <div style={{backgroundImage:`url(${env.PUBLIC_URL}/assets/BMWLOGO.png)`}} className="content_4"></div>
               
               <div className="main_content">
                   <h1>Make your first Bmw Car</h1>
@@ -120,8 +120,8 @@ const Home =() =>{
                   </Canvas>
                   <Picker />
               </div>
-              <div style={{backgroundImage:'url(./assets/06.png)'}} className="content_5"></div>
-              <div style={{backgroundImage:`url(./assets/02.png)`}} className="content_6"></div>
+              <div style={{backgroundImage:`url(${env.PUBLIC_URL}/assets/06.png)`}} className="content_5"></div>
+              <div style={{backgroundImage:`url(${env.PUBLIC_URL}/assets/02.png)`}} className="content_6"></div>
 
               <div className="content_7">
                   <div className="content_img">
