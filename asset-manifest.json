@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bmw-car/static/css/main.db506a1a.css",
-    "main.js": "/bmw-car/static/js/main.56756849.js",
+    "main.js": "/bmw-car/static/js/main.d9464c4f.js",
     "index.html": "/bmw-car/index.html",
     "main.db506a1a.css.map": "/bmw-car/static/css/main.db506a1a.css.map",
-    "main.56756849.js.map": "/bmw-car/static/js/main.56756849.js.map"
+    "main.d9464c4f.js.map": "/bmw-car/static/js/main.d9464c4f.js.map"
   },
   "entrypoints": [
     "static/css/main.db506a1a.css",
-    "static/js/main.56756849.js"
+    "static/js/main.d9464c4f.js"
   ]
 }
